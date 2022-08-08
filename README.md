@@ -42,4 +42,30 @@ const firebaseConfig = {
 
 4. Start Building
 
-Mark everything
+Start writing down all the components: Header, App Body: Sidebar, Feed, Widgets,
+
+- Header
+- App Body
+
+  - Sidebar
+  - Feed
+  - Widgets
+
+    4.1. Header
+
+- Create a Header.js file
+- Create and Import a Header.css file
+- Left Section and right section: two containers
+- Left Section: img for logo and div with an input plus an incon for the search. Using materials.io.
+
+- Install Material UI
+
+```javascript
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+
+```
+
+- Add a Search Icon
+- Add the LinkedIn Logo
+- Style Header Left
