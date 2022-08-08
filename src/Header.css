@@ -1,7 +1,15 @@
 /* HEADER */
 .header {
     /* Make it stick to the top */
+    position: sticky;
+    top: 0;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
 }
 
 .header__left {
@@ -11,7 +19,7 @@
 .header__left > img {
     object-fit: contain;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 .header__search {
@@ -30,3 +38,6 @@
     background: none;
 }
 
+.header__right {
+    display: flex;
+}
