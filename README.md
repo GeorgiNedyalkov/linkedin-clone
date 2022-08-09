@@ -69,3 +69,17 @@ npm install @mui/icons-material
 - Add a Search Icon
 - Add the LinkedIn Logo
 - Style Header Left
+- Add components for header right
+- Create a reusable component HeaderOption
+  - Icon
+  - Text
+- Style the HeaderOption
+- Add an avatar
+
+  4.2. Create Sidebar component
+
+  - Sidebar top
+  - Sidebar bottom
+  - Stats
+
+    4.3. Create Feed component
